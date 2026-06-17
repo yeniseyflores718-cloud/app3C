@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace app3C.Holoa_mundo
 {
-    public partial class calculadora : Form
+    public partial class frmcalculadora : Form
     {
-        public calculadora()
+        public frmcalculadora()
         {
             InitializeComponent();
         }

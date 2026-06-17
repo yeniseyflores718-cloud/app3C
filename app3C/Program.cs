@@ -1,10 +1,12 @@
 ﻿using app3C.cafeteria;
 using app3C.Holoa_mundo;
+using app3C.login;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using app3C.maquina_expendedora;
 
 namespace app3C
 {
@@ -19,7 +21,7 @@ namespace app3C
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCafeteria ());
+            Application.Run(new frmMaquinaExpendedora());
         }
     }
 }

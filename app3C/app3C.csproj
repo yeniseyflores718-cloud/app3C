@@ -68,13 +68,35 @@
     <Compile Include="Holoa mundo\calculadora.Designer.cs">
       <DependentUpon>calculadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="login\frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maquina expendedora\Class1.cs" />
+    <Compile Include="maquina expendedora\maquinaExpendedora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maquina expendedora\maquinaExpendedora.Designer.cs">
+      <DependentUpon>maquinaExpendedora.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="cafeteria\frmCafeteria.resx">
       <DependentUpon>frmCafeteria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Holoa mundo\calculadora.resx">
       <DependentUpon>calculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maquina expendedora\maquinaExpendedora.resx">
+      <DependentUpon>maquinaExpendedora.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,8 +106,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="cafeteria\EvidenciasCafeteria.pdf" />
+    <None Include="maquina expendedora\EvidenciasMaquinaExpendedora.pdf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -99,6 +123,26 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\boing2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chetos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gansito2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coca2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chetos2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pesos2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

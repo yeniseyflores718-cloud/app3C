@@ -1,6 +1,6 @@
 ﻿namespace app3C.Holoa_mundo
 {
-    partial class calculadora
+    partial class frmcalculadora
     {
         /// <summary>
         /// Required designer variable.
@@ -71,7 +71,6 @@
             this.label4.Size = new System.Drawing.Size(62, 13);
             this.label4.TabIndex = 0;
             this.label4.Text = "calculadora";
-            
             // 
             // label5
             // 
@@ -124,11 +123,11 @@
             this.lblResul.TabIndex = 6;
             this.lblResul.Text = "resultado";
             // 
-            // calculadora
+            // frmcalculadora
             // 
             this.ClientSize = new System.Drawing.Size(284, 259);
             this.Controls.Add(this.tableLayoutPanel2);
-            this.Name = "calculadora";
+            this.Name = "frmcalculadora";
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
